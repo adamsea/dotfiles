@@ -6,7 +6,10 @@ filetype plugin indent on
 " Indentation
 set tabstop=4
 set shiftwidth=4
-set noexpandtab
+set smartindent
+set nowrap
+set expandtab
+set shiftround
 set number
 vnoremap > >gv
 vnoremap < <gv
